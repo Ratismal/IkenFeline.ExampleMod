@@ -1,0 +1,7 @@
+﻿ModId: com.user.examplemod # the ID of your mod, can be anything as long as it's UNIQUE
+Name: Example Mod
+Version: 0.0.1
+Description: An example mod.
+Main: ExampleMod.dll # this must be the location of the assembly that your mod class resides in
+MainClass: ExampleMod.ExampleMod # this must be the full location to your mod class (including namespaces)
+Patches: # an optional array of patches. note that patches can reside in your main assembly!
