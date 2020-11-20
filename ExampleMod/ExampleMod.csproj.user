@@ -3,5 +3,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
     <StartAction>Program</StartAction>
     <StartProgram>game\IkenFelineWin.exe</StartProgram>
+    <StartArguments>--nosteam</StartArguments>
+    <StartWorkingDirectory>game</StartWorkingDirectory>
   </PropertyGroup>
 </Project>
